@@ -1,0 +1,1516 @@
+{
+  "eval_set_result_id": "carbon_coach_carbon_coach_golden_tests_1793357485.093426",
+  "eval_set_result_name": "carbon_coach_carbon_coach_golden_tests_1793357485.093426",
+  "eval_set_id": "carbon_coach_golden_tests",
+  "eval_case_results": [
+    {
+      "eval_set_file": "carbon_coach_golden_tests",
+      "eval_set_id": "carbon_coach_golden_tests",
+      "eval_id": "electricity_math",
+      "final_eval_status": 2,
+      "eval_metric_results": null,
+      "overall_eval_metric_results": [
+        {
+          "metric_name": "tool_trajectory_avg_score",
+          "threshold": 1.0,
+          "criterion": {
+            "threshold": 1.0,
+            "include_intermediate_responses_in_final": false
+          },
+          "custom_function_path": null,
+          "score": 0.0,
+          "eval_status": 2,
+          "details": {
+            "rubric_scores": null,
+            "token_usage_details": null,
+            "duration_details": null
+          }
+        },
+        {
+          "metric_name": "response_match_score",
+          "threshold": 0.8,
+          "criterion": {
+            "threshold": 0.8,
+            "include_intermediate_responses_in_final": false
+          },
+          "custom_function_path": null,
+          "score": 0.14705882352941174,
+          "eval_status": 2,
+          "details": {
+            "rubric_scores": null,
+            "token_usage_details": null,
+            "duration_details": null
+          }
+        },
+        {
+          "metric_name": "tool_call_count_v1",
+          "threshold": null,
+          "criterion": null,
+          "custom_function_path": null,
+          "score": 2.0,
+          "eval_status": 4,
+          "details": {
+            "rubric_scores": null,
+            "token_usage_details": null,
+            "duration_details": null
+          }
+        },
+        {
+          "metric_name": "inference_call_count_v1",
+          "threshold": null,
+          "criterion": null,
+          "custom_function_path": null,
+          "score": 3.0,
+          "eval_status": 4,
+          "details": {
+            "rubric_scores": null,
+            "token_usage_details": null,
+            "duration_details": null
+          }
+        },
+        {
+          "metric_name": "token_usage_v1",
+          "threshold": null,
+          "criterion": null,
+          "custom_function_path": null,
+          "score": 2087.0,
+          "eval_status": 4,
+          "details": {
+            "rubric_scores": null,
+            "token_usage_details": {
+              "total_tokens": 2087.0,
+              "input_tokens": 1681.0,
+              "prompt_tokens": 1681.0,
+              "cached_tokens": 256.0,
+              "tool_use_tokens": null,
+              "output_tokens": 406.0,
+              "candidates_tokens": 277.0,
+              "reasoning_tokens": 129.0
+            },
+            "duration_details": null
+          }
+        },
+        {
+          "metric_name": "invocation_duration_v1",
+          "threshold": null,
+          "criterion": null,
+          "custom_function_path": null,
+          "score": 10.264,
+          "eval_status": 4,
+          "details": {
+            "rubric_scores": null,
+            "token_usage_details": null,
+            "duration_details": {
+              "total_seconds": 10.264,
+              "model_seconds": 2.696,
+              "tool_seconds": 0.001,
+              "framework_seconds": 7.567
+            }
+          }
+        }
+      ],
+      "eval_metric_result_per_invocation": [
+        {
+          "actual_invocation": {
+            "invocation_id": "e-c0ce8b99-528f-44d6-8b74-4330e10e893c",
+            "user_content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "I used 10 kWh of electricity.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null,
+                  "tool_call": null,
+                  "tool_response": null,
+                  "part_metadata": null,
+                  "audio_transcription": null,
+                  "media_processing": null,
+                  "speech_metadata": null
+                }
+              ],
+              "role": null
+            },
+            "final_response": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "We logged electricity usage. The user just reported usage. Should respond confirming and encouraging.",
+                  "thought": true,
+                  "thought_signature": null,
+                  "video_metadata": null,
+                  "tool_call": null,
+                  "tool_response": null,
+                  "part_metadata": null,
+                  "audio_transcription": null,
+                  "media_processing": null,
+                  "speech_metadata": null
+                },
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "Great! I’ve logged your 10 kWh of electricity use, which equals **8.2 kg CO₂e**. Keep tracking your activities—every bit helps us find ways to reduce your carbon footprint. 🌱 If you’d like tips on cutting electricity use or any other area, just let me know!",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null,
+                  "tool_call": null,
+                  "tool_response": null,
+                  "part_metadata": null,
+                  "audio_transcription": null,
+                  "media_processing": null,
+                  "speech_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "intermediate_data": {
+              "invocation_events": [
+                {
+                  "author": "carbon_coach",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": null,
+                        "function_response": null,
+                        "inline_data": null,
+                        "text": "The user says they used 10 kWh of electricity. Need to calculate emissions using calculate_electricity_emissions tool, then log activity, then respond with result.\n\nWe need to use calculate_electricity_emissions with kwh=10. Then get result (kg CO2e). Then log activity with category \"electricity\", details \"10 kWh electricity usage\", kg_co2e from result. Then respond with concise encouraging message.\n\nProceed.",
+                        "thought": true,
+                        "thought_signature": null,
+                        "video_metadata": null,
+                        "tool_call": null,
+                        "tool_response": null,
+                        "part_metadata": null,
+                        "audio_transcription": null,
+                        "media_processing": null,
+                        "speech_metadata": null
+                      },
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": {
+                          "id": "fc_6cec6fbb-d501-4681-a122-a72767618103",
+                          "args": {
+                            "kwh": 10
+                          },
+                          "name": "calculate_electricity_emissions",
+                          "partial_args": null,
+                          "will_continue": null
+                        },
+                        "function_response": null,
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": null,
+                        "video_metadata": null,
+                        "tool_call": null,
+                        "tool_response": null,
+                        "part_metadata": null,
+                        "audio_transcription": null,
+                        "media_processing": null,
+                        "speech_metadata": null
+                      }
+                    ],
+                    "role": "model"
+                  },
+                  "grounding_metadata": null,
+                  "usage_metadata": {
+                    "cache_tokens_details": null,
+                    "cached_content_token_count": 256,
+                    "candidates_token_count": 125,
+                    "candidates_tokens_details": null,
+                    "prompt_token_count": 499,
+                    "prompt_tokens_details": null,
+                    "thoughts_token_count": 93,
+                    "tool_use_prompt_token_count": null,
+                    "tool_use_prompt_tokens_details": null,
+                    "total_token_count": 624,
+                    "traffic_type": null
+                  },
+                  "model_version": "openai/gpt-oss-120b"
+                },
+                {
+                  "author": "carbon_coach",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": null,
+                        "function_response": {
+                          "will_continue": null,
+                          "scheduling": null,
+                          "parts": null,
+                          "id": "fc_6cec6fbb-d501-4681-a122-a72767618103",
+                          "name": "calculate_electricity_emissions",
+                          "response": {
+                            "kwh": 10,
+                            "factor": 0.82,
+                            "kg_co2e": 8.2
+                          }
+                        },
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": null,
+                        "video_metadata": null,
+                        "tool_call": null,
+                        "tool_response": null,
+                        "part_metadata": null,
+                        "audio_transcription": null,
+                        "media_processing": null,
+                        "speech_metadata": null
+                      }
+                    ],
+                    "role": "user"
+                  },
+                  "grounding_metadata": null,
+                  "usage_metadata": null,
+                  "model_version": null
+                },
+                {
+                  "author": "carbon_coach",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": null,
+                        "function_response": null,
+                        "inline_data": null,
+                        "text": "We have calculated 8.2 kg CO2e. Need to log activity.",
+                        "thought": true,
+                        "thought_signature": null,
+                        "video_metadata": null,
+                        "tool_call": null,
+                        "tool_response": null,
+                        "part_metadata": null,
+                        "audio_transcription": null,
+                        "media_processing": null,
+                        "speech_metadata": null
+                      },
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": {
+                          "id": "fc_0b394001-6c88-4111-891d-e5e76606fa58",
+                          "args": {
+                            "category": "electricity",
+                            "details": "10 kWh electricity usage",
+                            "kg_co2e": 8.2
+                          },
+                          "name": "log_activity",
+                          "partial_args": null,
+                          "will_continue": null
+                        },
+                        "function_response": null,
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": null,
+                        "video_metadata": null,
+                        "tool_call": null,
+                        "tool_response": null,
+                        "part_metadata": null,
+                        "audio_transcription": null,
+                        "media_processing": null,
+                        "speech_metadata": null
+                      }
+                    ],
+                    "role": "model"
+                  },
+                  "grounding_metadata": null,
+                  "usage_metadata": {
+                    "cache_tokens_details": null,
+                    "cached_content_token_count": 0,
+                    "candidates_token_count": 58,
+                    "candidates_tokens_details": null,
+                    "prompt_token_count": 560,
+                    "prompt_tokens_details": null,
+                    "thoughts_token_count": 18,
+                    "tool_use_prompt_token_count": null,
+                    "tool_use_prompt_tokens_details": null,
+                    "total_token_count": 618,
+                    "traffic_type": null
+                  },
+                  "model_version": "openai/gpt-oss-120b"
+                },
+                {
+                  "author": "carbon_coach",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": null,
+                        "function_response": {
+                          "will_continue": null,
+                          "scheduling": null,
+                          "parts": null,
+                          "id": "fc_0b394001-6c88-4111-891d-e5e76606fa58",
+                          "name": "log_activity",
+                          "response": {
+                            "status": "success",
+                            "total_logged_items": 2
+                          }
+                        },
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": null,
+                        "video_metadata": null,
+                        "tool_call": null,
+                        "tool_response": null,
+                        "part_metadata": null,
+                        "audio_transcription": null,
+                        "media_processing": null,
+                        "speech_metadata": null
+                      }
+                    ],
+                    "role": "user"
+                  },
+                  "grounding_metadata": null,
+                  "usage_metadata": null,
+                  "model_version": null
+                },
+                {
+                  "author": "carbon_coach",
+                  "content": null,
+                  "grounding_metadata": null,
+                  "usage_metadata": {
+                    "cache_tokens_details": null,
+                    "cached_content_token_count": 0,
+                    "candidates_token_count": 94,
+                    "candidates_tokens_details": null,
+                    "prompt_token_count": 622,
+                    "prompt_tokens_details": null,
+                    "thoughts_token_count": 18,
+                    "tool_use_prompt_token_count": null,
+                    "tool_use_prompt_tokens_details": null,
+                    "total_token_count": 716,
+                    "traffic_type": null
+                  },
+                  "model_version": "openai/gpt-oss-120b"
+                }
+              ]
+            },
+            "creation_timestamp": 1793357483.691411,
+            "duration": 10.264,
+            "model_duration": 2.696,
+            "tool_duration": 0.001,
+            "rubrics": null,
+            "app_details": {
+              "agent_details": {
+                "carbon_coach": {
+                  "name": "carbon_coach",
+                  "instructions": "You are Carbon Coach. Help users understand and reduce their carbon footprint.\nRULES:\n1. ALWAYS use the calculate tools to find emissions. NEVER guess or calculate numbers yourself.\n2. After calculating, ALWAYS use the log_activity tool to save it to memory.\n3. If the user asks for tips, use suggest_reductions tool.\n4. If the user asks about their week, use get_weekly_summary tool.\n5. Be concise and encouraging.\n\n\nYou are an agent. Your internal name is \"carbon_coach\". The description about you is \"A carbon footprint coach for students.\".",
+                  "tool_declarations": [
+                    {
+                      "retrieval": null,
+                      "computer_use": null,
+                      "file_search": null,
+                      "google_search": null,
+                      "google_maps": null,
+                      "code_execution": null,
+                      "enterprise_web_search": null,
+                      "function_declarations": [
+                        {
+                          "description": "Calculate CO2e emissions for travel.",
+                          "name": "calculate_travel_emissions",
+                          "parameters": null,
+                          "parameters_json_schema": {
+                            "properties": {
+                              "mode": {
+                                "title": "Mode",
+                                "type": "string"
+                              },
+                              "km": {
+                                "title": "Km",
+                                "type": "number"
+                              }
+                            },
+                            "required": [
+                              "mode",
+                              "km"
+                            ],
+                            "title": "calculate_travel_emissionsParams",
+                            "type": "object"
+                          },
+                          "response": null,
+                          "response_json_schema": null,
+                          "behavior": null
+                        },
+                        {
+                          "description": "Calculate CO2e emissions for electricity usage.",
+                          "name": "calculate_electricity_emissions",
+                          "parameters": null,
+                          "parameters_json_schema": {
+                            "properties": {
+                              "kwh": {
+                                "title": "Kwh",
+                                "type": "number"
+                              }
+                            },
+                            "required": [
+                              "kwh"
+                            ],
+                            "title": "calculate_electricity_emissionsParams",
+                            "type": "object"
+                          },
+                          "response": null,
+                          "response_json_schema": null,
+                          "behavior": null
+                        },
+                        {
+                          "description": "Calculate CO2e emissions for food consumption.",
+                          "name": "calculate_food_emissions",
+                          "parameters": null,
+                          "parameters_json_schema": {
+                            "properties": {
+                              "meal_type": {
+                                "title": "Meal Type",
+                                "type": "string"
+                              },
+                              "kg": {
+                                "default": 1.0,
+                                "title": "Kg",
+                                "type": "number"
+                              }
+                            },
+                            "required": [
+                              "meal_type"
+                            ],
+                            "title": "calculate_food_emissionsParams",
+                            "type": "object"
+                          },
+                          "response": null,
+                          "response_json_schema": null,
+                          "behavior": null
+                        },
+                        {
+                          "description": "Save an activity to memory.\n\nArgs:\n    category: travel, electricity, or food\n    kg_co2e: The emission amount calculated\n    details: A short description like \"12km bus ride\"",
+                          "name": "log_activity",
+                          "parameters": null,
+                          "parameters_json_schema": {
+                            "properties": {
+                              "category": {
+                                "title": "Category",
+                                "type": "string"
+                              },
+                              "kg_co2e": {
+                                "title": "Kg Co2E",
+                                "type": "number"
+                              },
+                              "details": {
+                                "title": "Details",
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "category",
+                              "kg_co2e",
+                              "details"
+                            ],
+                            "title": "log_activityParams",
+                            "type": "object"
+                          },
+                          "response": null,
+                          "response_json_schema": null,
+                          "behavior": null
+                        },
+                        {
+                          "description": "Get the total emissions and list of all activities logged so far.",
+                          "name": "get_summary",
+                          "parameters": null,
+                          "parameters_json_schema": null,
+                          "response": null,
+                          "response_json_schema": null,
+                          "behavior": null
+                        },
+                        {
+                          "description": "Provide personalised tips to reduce emissions with estimated savings.",
+                          "name": "suggest_reductions",
+                          "parameters": null,
+                          "parameters_json_schema": null,
+                          "response": null,
+                          "response_json_schema": null,
+                          "behavior": null
+                        },
+                        {
+                          "description": "Get a 7-day emissions trend for the user.",
+                          "name": "get_weekly_summary",
+                          "parameters": null,
+                          "parameters_json_schema": null,
+                          "response": null,
+                          "response_json_schema": null,
+                          "behavior": null
+                        }
+                      ],
+                      "google_search_retrieval": null,
+                      "parallel_ai_search": null,
+                      "url_context": null,
+                      "mcp_servers": null,
+                      "exa_ai_search": null
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "expected_invocation": {
+            "invocation_id": "inv_1",
+            "user_content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "I used 10 kWh of electricity.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null,
+                  "tool_call": null,
+                  "tool_response": null,
+                  "part_metadata": null,
+                  "audio_transcription": null,
+                  "media_processing": null,
+                  "speech_metadata": null
+                }
+              ],
+              "role": null
+            },
+            "final_response": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "That used 8.2 kg CO₂e.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null,
+                  "tool_call": null,
+                  "tool_response": null,
+                  "part_metadata": null,
+                  "audio_transcription": null,
+                  "media_processing": null,
+                  "speech_metadata": null
+                }
+              ],
+              "role": null
+            },
+            "intermediate_data": {
+              "tool_uses": [
+                {
+                  "id": null,
+                  "args": {
+                    "kwh": 10.0
+                  },
+                  "name": "calculate_electricity_emissions",
+                  "partial_args": null,
+                  "will_continue": null
+                }
+              ],
+              "tool_responses": [],
+              "intermediate_responses": []
+            },
+            "creation_timestamp": 0.0,
+            "duration": null,
+            "model_duration": null,
+            "tool_duration": null,
+            "rubrics": null,
+            "app_details": null
+          },
+          "eval_metric_results": [
+            {
+              "metric_name": "tool_trajectory_avg_score",
+              "threshold": 1.0,
+              "criterion": {
+                "threshold": 1.0,
+                "include_intermediate_responses_in_final": false
+              },
+              "custom_function_path": null,
+              "score": 0.0,
+              "eval_status": 2,
+              "details": {
+                "rubric_scores": null,
+                "token_usage_details": null,
+                "duration_details": null
+              }
+            },
+            {
+              "metric_name": "response_match_score",
+              "threshold": 0.8,
+              "criterion": {
+                "threshold": 0.8,
+                "include_intermediate_responses_in_final": false
+              },
+              "custom_function_path": null,
+              "score": 0.14705882352941174,
+              "eval_status": 2,
+              "details": {
+                "rubric_scores": null,
+                "token_usage_details": null,
+                "duration_details": null
+              }
+            },
+            {
+              "metric_name": "tool_call_count_v1",
+              "threshold": null,
+              "criterion": null,
+              "custom_function_path": null,
+              "score": 2.0,
+              "eval_status": 4,
+              "details": {
+                "rubric_scores": null,
+                "token_usage_details": null,
+                "duration_details": null
+              }
+            },
+            {
+              "metric_name": "inference_call_count_v1",
+              "threshold": null,
+              "criterion": null,
+              "custom_function_path": null,
+              "score": 3.0,
+              "eval_status": 4,
+              "details": {
+                "rubric_scores": null,
+                "token_usage_details": null,
+                "duration_details": null
+              }
+            },
+            {
+              "metric_name": "token_usage_v1",
+              "threshold": null,
+              "criterion": null,
+              "custom_function_path": null,
+              "score": 2087.0,
+              "eval_status": 4,
+              "details": {
+                "rubric_scores": null,
+                "token_usage_details": {
+                  "total_tokens": 2087.0,
+                  "input_tokens": 1681.0,
+                  "prompt_tokens": 1681.0,
+                  "cached_tokens": 256.0,
+                  "tool_use_tokens": null,
+                  "output_tokens": 406.0,
+                  "candidates_tokens": 277.0,
+                  "reasoning_tokens": 129.0
+                },
+                "duration_details": null
+              }
+            },
+            {
+              "metric_name": "invocation_duration_v1",
+              "threshold": null,
+              "criterion": null,
+              "custom_function_path": null,
+              "score": 10.264,
+              "eval_status": 4,
+              "details": {
+                "rubric_scores": null,
+                "token_usage_details": null,
+                "duration_details": {
+                  "total_seconds": 10.264,
+                  "model_seconds": 2.696,
+                  "tool_seconds": 0.001,
+                  "framework_seconds": 7.567
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "session_id": "adk-eval-session-ad213378-86f2-42ea-83f3-a86cd9255619",
+      "session_details": null,
+      "user_id": "test_user_id"
+    },
+    {
+      "eval_set_file": "carbon_coach_golden_tests",
+      "eval_set_id": "carbon_coach_golden_tests",
+      "eval_id": "bus_travel_math",
+      "final_eval_status": 2,
+      "eval_metric_results": null,
+      "overall_eval_metric_results": [
+        {
+          "metric_name": "tool_trajectory_avg_score",
+          "threshold": 1.0,
+          "criterion": {
+            "threshold": 1.0,
+            "include_intermediate_responses_in_final": false
+          },
+          "custom_function_path": null,
+          "score": 0.0,
+          "eval_status": 2,
+          "details": {
+            "rubric_scores": null,
+            "token_usage_details": null,
+            "duration_details": null
+          }
+        },
+        {
+          "metric_name": "response_match_score",
+          "threshold": 0.8,
+          "criterion": {
+            "threshold": 0.8,
+            "include_intermediate_responses_in_final": false
+          },
+          "custom_function_path": null,
+          "score": 0.4285714285714285,
+          "eval_status": 2,
+          "details": {
+            "rubric_scores": null,
+            "token_usage_details": null,
+            "duration_details": null
+          }
+        },
+        {
+          "metric_name": "tool_call_count_v1",
+          "threshold": null,
+          "criterion": null,
+          "custom_function_path": null,
+          "score": 2.0,
+          "eval_status": 4,
+          "details": {
+            "rubric_scores": null,
+            "token_usage_details": null,
+            "duration_details": null
+          }
+        },
+        {
+          "metric_name": "inference_call_count_v1",
+          "threshold": null,
+          "criterion": null,
+          "custom_function_path": null,
+          "score": 3.0,
+          "eval_status": 4,
+          "details": {
+            "rubric_scores": null,
+            "token_usage_details": null,
+            "duration_details": null
+          }
+        },
+        {
+          "metric_name": "token_usage_v1",
+          "threshold": null,
+          "criterion": null,
+          "custom_function_path": null,
+          "score": 1968.0,
+          "eval_status": 4,
+          "details": {
+            "rubric_scores": null,
+            "token_usage_details": {
+              "total_tokens": 1968.0,
+              "input_tokens": 1695.0,
+              "prompt_tokens": 1695.0,
+              "cached_tokens": 256.0,
+              "tool_use_tokens": null,
+              "output_tokens": 273.0,
+              "candidates_tokens": 193.0,
+              "reasoning_tokens": 80.0
+            },
+            "duration_details": null
+          }
+        },
+        {
+          "metric_name": "invocation_duration_v1",
+          "threshold": null,
+          "criterion": null,
+          "custom_function_path": null,
+          "score": 10.864,
+          "eval_status": 4,
+          "details": {
+            "rubric_scores": null,
+            "token_usage_details": null,
+            "duration_details": {
+              "total_seconds": 10.864,
+              "model_seconds": 10.106,
+              "tool_seconds": 0.004,
+              "framework_seconds": 0.754
+            }
+          }
+        }
+      ],
+      "eval_metric_result_per_invocation": [
+        {
+          "actual_invocation": {
+            "invocation_id": "e-9ea6dbdf-acc1-4878-886b-97817d449f6a",
+            "user_content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "I travelled 12 km by bus today.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null,
+                  "tool_call": null,
+                  "tool_response": null,
+                  "part_metadata": null,
+                  "audio_transcription": null,
+                  "media_processing": null,
+                  "speech_metadata": null
+                }
+              ],
+              "role": null
+            },
+            "final_response": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "Your 12 km bus ride generated **≈1.24 kg CO₂e**. It’s logged! Keep it up—small changes add up. 🚍🌱",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null,
+                  "tool_call": null,
+                  "tool_response": null,
+                  "part_metadata": null,
+                  "audio_transcription": null,
+                  "media_processing": null,
+                  "speech_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "intermediate_data": {
+              "invocation_events": [
+                {
+                  "author": "carbon_coach",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": null,
+                        "function_response": null,
+                        "inline_data": null,
+                        "text": "The user says they traveled 12 km by bus today. We need to calculate emissions using calculate_travel_emissions with km=12, mode=\"bus\". Then log activity with category travel, details \"12km bus ride\", kg_co2e from result. Then respond concisely and encouraging.",
+                        "thought": true,
+                        "thought_signature": null,
+                        "video_metadata": null,
+                        "tool_call": null,
+                        "tool_response": null,
+                        "part_metadata": null,
+                        "audio_transcription": null,
+                        "media_processing": null,
+                        "speech_metadata": null
+                      },
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": {
+                          "id": "fc_c7da77fd-9a18-406f-85e0-9cd7dd9241f0",
+                          "args": {
+                            "km": 12,
+                            "mode": "bus"
+                          },
+                          "name": "calculate_travel_emissions",
+                          "partial_args": null,
+                          "will_continue": null
+                        },
+                        "function_response": null,
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": null,
+                        "video_metadata": null,
+                        "tool_call": null,
+                        "tool_response": null,
+                        "part_metadata": null,
+                        "audio_transcription": null,
+                        "media_processing": null,
+                        "speech_metadata": null
+                      }
+                    ],
+                    "role": "model"
+                  },
+                  "grounding_metadata": null,
+                  "usage_metadata": {
+                    "cache_tokens_details": null,
+                    "cached_content_token_count": 0,
+                    "candidates_token_count": 99,
+                    "candidates_tokens_details": null,
+                    "prompt_token_count": 499,
+                    "prompt_tokens_details": null,
+                    "thoughts_token_count": 62,
+                    "tool_use_prompt_token_count": null,
+                    "tool_use_prompt_tokens_details": null,
+                    "total_token_count": 598,
+                    "traffic_type": null
+                  },
+                  "model_version": "openai/gpt-oss-120b"
+                },
+                {
+                  "author": "carbon_coach",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": null,
+                        "function_response": {
+                          "will_continue": null,
+                          "scheduling": null,
+                          "parts": null,
+                          "id": "fc_c7da77fd-9a18-406f-85e0-9cd7dd9241f0",
+                          "name": "calculate_travel_emissions",
+                          "response": {
+                            "mode": "bus",
+                            "km": 12,
+                            "factor": 0.103,
+                            "kg_co2e": 1.236
+                          }
+                        },
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": null,
+                        "video_metadata": null,
+                        "tool_call": null,
+                        "tool_response": null,
+                        "part_metadata": null,
+                        "audio_transcription": null,
+                        "media_processing": null,
+                        "speech_metadata": null
+                      }
+                    ],
+                    "role": "user"
+                  },
+                  "grounding_metadata": null,
+                  "usage_metadata": null,
+                  "model_version": null
+                },
+                {
+                  "author": "carbon_coach",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": null,
+                        "function_response": null,
+                        "inline_data": null,
+                        "text": "We got kg_co2e = 1.236. Need to log activity.",
+                        "thought": true,
+                        "thought_signature": null,
+                        "video_metadata": null,
+                        "tool_call": null,
+                        "tool_response": null,
+                        "part_metadata": null,
+                        "audio_transcription": null,
+                        "media_processing": null,
+                        "speech_metadata": null
+                      },
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": {
+                          "id": "fc_ac3f6339-bce3-4c56-9481-c49be9417862",
+                          "args": {
+                            "category": "travel",
+                            "details": "12km bus ride",
+                            "kg_co2e": 1.236
+                          },
+                          "name": "log_activity",
+                          "partial_args": null,
+                          "will_continue": null
+                        },
+                        "function_response": null,
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": null,
+                        "video_metadata": null,
+                        "tool_call": null,
+                        "tool_response": null,
+                        "part_metadata": null,
+                        "audio_transcription": null,
+                        "media_processing": null,
+                        "speech_metadata": null
+                      }
+                    ],
+                    "role": "model"
+                  },
+                  "grounding_metadata": null,
+                  "usage_metadata": {
+                    "cache_tokens_details": null,
+                    "cached_content_token_count": 0,
+                    "candidates_token_count": 53,
+                    "candidates_tokens_details": null,
+                    "prompt_token_count": 568,
+                    "prompt_tokens_details": null,
+                    "thoughts_token_count": 18,
+                    "tool_use_prompt_token_count": null,
+                    "tool_use_prompt_tokens_details": null,
+                    "total_token_count": 621,
+                    "traffic_type": null
+                  },
+                  "model_version": "openai/gpt-oss-120b"
+                },
+                {
+                  "author": "carbon_coach",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": null,
+                        "function_response": {
+                          "will_continue": null,
+                          "scheduling": null,
+                          "parts": null,
+                          "id": "fc_ac3f6339-bce3-4c56-9481-c49be9417862",
+                          "name": "log_activity",
+                          "response": {
+                            "status": "success",
+                            "total_logged_items": 1
+                          }
+                        },
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": null,
+                        "video_metadata": null,
+                        "tool_call": null,
+                        "tool_response": null,
+                        "part_metadata": null,
+                        "audio_transcription": null,
+                        "media_processing": null,
+                        "speech_metadata": null
+                      }
+                    ],
+                    "role": "user"
+                  },
+                  "grounding_metadata": null,
+                  "usage_metadata": null,
+                  "model_version": null
+                },
+                {
+                  "author": "carbon_coach",
+                  "content": null,
+                  "grounding_metadata": null,
+                  "usage_metadata": {
+                    "cache_tokens_details": null,
+                    "cached_content_token_count": 256,
+                    "candidates_token_count": 41,
+                    "candidates_tokens_details": null,
+                    "prompt_token_count": 628,
+                    "prompt_tokens_details": null,
+                    "thoughts_token_count": null,
+                    "tool_use_prompt_token_count": null,
+                    "tool_use_prompt_tokens_details": null,
+                    "total_token_count": 669,
+                    "traffic_type": null
+                  },
+                  "model_version": "openai/gpt-oss-120b"
+                }
+              ]
+            },
+            "creation_timestamp": 1793357483.6609337,
+            "duration": 10.864,
+            "model_duration": 10.106,
+            "tool_duration": 0.004,
+            "rubrics": null,
+            "app_details": {
+              "agent_details": {
+                "carbon_coach": {
+                  "name": "carbon_coach",
+                  "instructions": "You are Carbon Coach. Help users understand and reduce their carbon footprint.\nRULES:\n1. ALWAYS use the calculate tools to find emissions. NEVER guess or calculate numbers yourself.\n2. After calculating, ALWAYS use the log_activity tool to save it to memory.\n3. If the user asks for tips, use suggest_reductions tool.\n4. If the user asks about their week, use get_weekly_summary tool.\n5. Be concise and encouraging.\n\n\nYou are an agent. Your internal name is \"carbon_coach\". The description about you is \"A carbon footprint coach for students.\".",
+                  "tool_declarations": [
+                    {
+                      "retrieval": null,
+                      "computer_use": null,
+                      "file_search": null,
+                      "google_search": null,
+                      "google_maps": null,
+                      "code_execution": null,
+                      "enterprise_web_search": null,
+                      "function_declarations": [
+                        {
+                          "description": "Calculate CO2e emissions for travel.",
+                          "name": "calculate_travel_emissions",
+                          "parameters": null,
+                          "parameters_json_schema": {
+                            "properties": {
+                              "mode": {
+                                "title": "Mode",
+                                "type": "string"
+                              },
+                              "km": {
+                                "title": "Km",
+                                "type": "number"
+                              }
+                            },
+                            "required": [
+                              "mode",
+                              "km"
+                            ],
+                            "title": "calculate_travel_emissionsParams",
+                            "type": "object"
+                          },
+                          "response": null,
+                          "response_json_schema": null,
+                          "behavior": null
+                        },
+                        {
+                          "description": "Calculate CO2e emissions for electricity usage.",
+                          "name": "calculate_electricity_emissions",
+                          "parameters": null,
+                          "parameters_json_schema": {
+                            "properties": {
+                              "kwh": {
+                                "title": "Kwh",
+                                "type": "number"
+                              }
+                            },
+                            "required": [
+                              "kwh"
+                            ],
+                            "title": "calculate_electricity_emissionsParams",
+                            "type": "object"
+                          },
+                          "response": null,
+                          "response_json_schema": null,
+                          "behavior": null
+                        },
+                        {
+                          "description": "Calculate CO2e emissions for food consumption.",
+                          "name": "calculate_food_emissions",
+                          "parameters": null,
+                          "parameters_json_schema": {
+                            "properties": {
+                              "meal_type": {
+                                "title": "Meal Type",
+                                "type": "string"
+                              },
+                              "kg": {
+                                "default": 1.0,
+                                "title": "Kg",
+                                "type": "number"
+                              }
+                            },
+                            "required": [
+                              "meal_type"
+                            ],
+                            "title": "calculate_food_emissionsParams",
+                            "type": "object"
+                          },
+                          "response": null,
+                          "response_json_schema": null,
+                          "behavior": null
+                        },
+                        {
+                          "description": "Save an activity to memory.\n\nArgs:\n    category: travel, electricity, or food\n    kg_co2e: The emission amount calculated\n    details: A short description like \"12km bus ride\"",
+                          "name": "log_activity",
+                          "parameters": null,
+                          "parameters_json_schema": {
+                            "properties": {
+                              "category": {
+                                "title": "Category",
+                                "type": "string"
+                              },
+                              "kg_co2e": {
+                                "title": "Kg Co2E",
+                                "type": "number"
+                              },
+                              "details": {
+                                "title": "Details",
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "category",
+                              "kg_co2e",
+                              "details"
+                            ],
+                            "title": "log_activityParams",
+                            "type": "object"
+                          },
+                          "response": null,
+                          "response_json_schema": null,
+                          "behavior": null
+                        },
+                        {
+                          "description": "Get the total emissions and list of all activities logged so far.",
+                          "name": "get_summary",
+                          "parameters": null,
+                          "parameters_json_schema": null,
+                          "response": null,
+                          "response_json_schema": null,
+                          "behavior": null
+                        },
+                        {
+                          "description": "Provide personalised tips to reduce emissions with estimated savings.",
+                          "name": "suggest_reductions",
+                          "parameters": null,
+                          "parameters_json_schema": null,
+                          "response": null,
+                          "response_json_schema": null,
+                          "behavior": null
+                        },
+                        {
+                          "description": "Get a 7-day emissions trend for the user.",
+                          "name": "get_weekly_summary",
+                          "parameters": null,
+                          "parameters_json_schema": null,
+                          "response": null,
+                          "response_json_schema": null,
+                          "behavior": null
+                        }
+                      ],
+                      "google_search_retrieval": null,
+                      "parallel_ai_search": null,
+                      "url_context": null,
+                      "mcp_servers": null,
+                      "exa_ai_search": null
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "expected_invocation": {
+            "invocation_id": "inv_1",
+            "user_content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "I travelled 12 km by bus today.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null,
+                  "tool_call": null,
+                  "tool_response": null,
+                  "part_metadata": null,
+                  "audio_transcription": null,
+                  "media_processing": null,
+                  "speech_metadata": null
+                }
+              ],
+              "role": null
+            },
+            "final_response": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "Your bus ride emitted 1.236 kg CO₂e.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null,
+                  "tool_call": null,
+                  "tool_response": null,
+                  "part_metadata": null,
+                  "audio_transcription": null,
+                  "media_processing": null,
+                  "speech_metadata": null
+                }
+              ],
+              "role": null
+            },
+            "intermediate_data": {
+              "tool_uses": [
+                {
+                  "id": null,
+                  "args": {
+                    "mode": "bus",
+                    "km": 12.0
+                  },
+                  "name": "calculate_travel_emissions",
+                  "partial_args": null,
+                  "will_continue": null
+                }
+              ],
+              "tool_responses": [],
+              "intermediate_responses": []
+            },
+            "creation_timestamp": 0.0,
+            "duration": null,
+            "model_duration": null,
+            "tool_duration": null,
+            "rubrics": null,
+            "app_details": null
+          },
+          "eval_metric_results": [
+            {
+              "metric_name": "tool_trajectory_avg_score",
+              "threshold": 1.0,
+              "criterion": {
+                "threshold": 1.0,
+                "include_intermediate_responses_in_final": false
+              },
+              "custom_function_path": null,
+              "score": 0.0,
+              "eval_status": 2,
+              "details": {
+                "rubric_scores": null,
+                "token_usage_details": null,
+                "duration_details": null
+              }
+            },
+            {
+              "metric_name": "response_match_score",
+              "threshold": 0.8,
+              "criterion": {
+                "threshold": 0.8,
+                "include_intermediate_responses_in_final": false
+              },
+              "custom_function_path": null,
+              "score": 0.4285714285714285,
+              "eval_status": 2,
+              "details": {
+                "rubric_scores": null,
+                "token_usage_details": null,
+                "duration_details": null
+              }
+            },
+            {
+              "metric_name": "tool_call_count_v1",
+              "threshold": null,
+              "criterion": null,
+              "custom_function_path": null,
+              "score": 2.0,
+              "eval_status": 4,
+              "details": {
+                "rubric_scores": null,
+                "token_usage_details": null,
+                "duration_details": null
+              }
+            },
+            {
+              "metric_name": "inference_call_count_v1",
+              "threshold": null,
+              "criterion": null,
+              "custom_function_path": null,
+              "score": 3.0,
+              "eval_status": 4,
+              "details": {
+                "rubric_scores": null,
+                "token_usage_details": null,
+                "duration_details": null
+              }
+            },
+            {
+              "metric_name": "token_usage_v1",
+              "threshold": null,
+              "criterion": null,
+              "custom_function_path": null,
+              "score": 1968.0,
+              "eval_status": 4,
+              "details": {
+                "rubric_scores": null,
+                "token_usage_details": {
+                  "total_tokens": 1968.0,
+                  "input_tokens": 1695.0,
+                  "prompt_tokens": 1695.0,
+                  "cached_tokens": 256.0,
+                  "tool_use_tokens": null,
+                  "output_tokens": 273.0,
+                  "candidates_tokens": 193.0,
+                  "reasoning_tokens": 80.0
+                },
+                "duration_details": null
+              }
+            },
+            {
+              "metric_name": "invocation_duration_v1",
+              "threshold": null,
+              "criterion": null,
+              "custom_function_path": null,
+              "score": 10.864,
+              "eval_status": 4,
+              "details": {
+                "rubric_scores": null,
+                "token_usage_details": null,
+                "duration_details": {
+                  "total_seconds": 10.864,
+                  "model_seconds": 10.106,
+                  "tool_seconds": 0.004,
+                  "framework_seconds": 0.754
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "session_id": "adk-eval-session-42968ea3-57cc-424c-948d-ae450cc242f8",
+      "session_details": null,
+      "user_id": "test_user_id"
+    }
+  ],
+  "creation_timestamp": 1793357485.093426
+}

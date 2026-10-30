@@ -1,0 +1,38 @@
+{
+  "eval_set_id": "carbon_coach_golden_tests",
+  "name": "Carbon Coach Golden Tests",
+  "eval_cases": [
+    {
+      "eval_id": "bus_travel_math",
+      "conversation": [
+        {
+          "invocation_id": "inv_1",
+          "user_content": {
+            "parts": [{"text": "I travelled 12 km by bus today."}]
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {"name": "calculate_travel_emissions", "args": {"mode": "bus", "km": 12.0}}
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "eval_id": "electricity_math",
+      "conversation": [
+        {
+          "invocation_id": "inv_1",
+          "user_content": {
+            "parts": [{"text": "I used 10 kWh of electricity."}]
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {"name": "calculate_electricity_emissions", "args": {"kwh": 10.0}}
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
